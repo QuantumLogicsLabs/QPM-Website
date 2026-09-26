@@ -19,8 +19,8 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-5FA04E?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4-000000?logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose%208-47A248?logo=mongodb&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-6366f1)
 
 </div>
@@ -68,7 +68,7 @@ QPM is the package backbone of the **Quantum Language** ecosystem — think `npm
         ▼
 ┌───────────────────┐        /api        ┌────────────────────────┐
 │   Frontend        │ ─────────────────▶ │   Backend              │
-│   React 18 + Vite │                    │   Express (ESM)        │
+│   React 19 + Vite │                    │   Express (ESM)        │
 │   :3000 (proxy)   │ ◀───────────────── │   :8000                │
 └───────────────────┘                    └───────────┬────────────┘
                                                      │
@@ -83,7 +83,7 @@ QPM is the package backbone of the **Quantum Language** ecosystem — think `npm
 
 | Layer | Stack |
 |-------|-------|
-| **Frontend** | React 18 · Vite 5 · React Router 6 · `lucide-react` · `canvas-confetti` |
+| **Frontend** | React 19 · Vite 8 · React Router 8 · CSS Modules · `react-markdown` · `lucide-react` · `canvas-confetti` |
 | **Backend**  | Node.js + Express 4 (ESM) · Mongoose 8 · `jsonwebtoken` · `bcryptjs` · `multer` |
 | **Data**     | MongoDB — metadata · Google Drive API — package archives |
 | **Auth**     | JWT (7-day tokens) · bcrypt password hashing |
